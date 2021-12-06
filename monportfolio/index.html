@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+    <!-- <script src="fontawesome/css/all.min.css"></script> -->
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Anguandia Jeremie | Portfolio</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm fixed-top container header">
+        <a class="navbar-brand header__logo" href="index.html">ATJ</a>    
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#menu"><span class="fa fa-list text-white"></span></button>
+		<div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav offset-10">
+                <li class="nav-item"><a class="nav-link" href="projet.html">Réalisations</a></li>
+                <li class="nav-item"><a class="nav-link header__action" href="contact.html">ME CONTACTER</a></li>               
+            </ul>
+        </div>
+    </nav>
+<div class="hero">
+    <div class="hero__body">
+        <div class="hero__hello">Bonjour, je suis</div>
+        <div class="hero__title">Anguandia Tsandi Jered</div>
+        <div class="hero__job">Developpeur web JavaScript Full stack</div>
+    </div>
+    <div class="hero_image">
+        <img src="images/jed.jpg" class="rounded-circle" alt="">
+    </div>
+</div>
+<section class="section" id="competance">
+    <div class="section__top-title">MES COMPÉTENCES</div>
+    <div class="section__title" data-delay="1">Services</div>
+    <div class="services row">
+        <div class="service col-md-3" data-delay="2">
+            <img src="images/node.PNG" alt="" class="service__logo">
+            <div class="service__title">Backend Nodejs ou Laravel</div>
+            <p>Je développe des applications JavaScript depuis plus de 2 ans et je maitrise les frameworks Nodejs et Laravel</p>
+        </div>
+        <div class="service col-md-3" data-delay="3">
+            <img src="images/logo-react-vue.svg" alt="" class="service__logo">
+            <div class="service__title">Frontend VueJS ou React</div>
+            <p>Si vous avez besoin de développer une application dynamique et réactive, je maitrise les frameworks VueJS et React.</p>
+        </div>
+        <div class="service col-md-3" data-delay="4">
+            <img src="images/netcsharp.PNG" alt="" class="service__logo">
+            <div class="service__title">C-sharp et SQL Server</div>
+            <p>Vous recherchez une personne pour développer un logiciel de bureau ou concevoir et manager une base des données ? Je maitrise les outils .NET et  SQL.</p>
+        </div>
+    </div>
+</section>
+<section class="section backgound hide-overflow" id="project">
+    <div class="section__top-title">MES CLIENTS</div>
+    <div class="section__title" data-delay="1">Projets</div>
+    <div class="projects">
+        <div class="embla__container row" data-delay="2">
+            <div class="embla__slide col-md-4">
+                <div class="project">
+                    <a class="project__image" href="">
+                        <img src="images/login.PNG" alt="Aperçu du site Jered.design">
+                    </a>
+                    <div class="project__body">
+                        <div class="project__tags">REACT,CSS,NODEJS</div>
+                        <div class="project__name">Charity</div>
+                        <p class="project__desc">Développement React pour le lancement de la nouvelle version de recolte de fonds Charity</p>
+                        <a class="project__action" href="">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="embla__slide col-md-4">
+                <div class="project">
+                    <a class="project__image" href="">
+                        <img src="images/ac-form.PNG" alt="Aperçu du site Jered.design">
+                    </a>
+                    <div class="project__body">
+                        <div class="project__tags">REACT,NODEJS</div>
+                        <div class="project__name">TéléCPN</div>
+                        <p class="project__desc">Développement React au sein d'une équipe pour le lancement du projet TéléCPN</p>
+                        <a class="project__action" href="">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="embla__slide col-md-4">
+                <div class="project">
+                    <a class="project__image" href="">
+                        <img src="images/principale.PNG" alt="Aperçu du site Jered.design">
+                    </a>
+                    <div class="project__body">
+                        <div class="project__tags">C-sharp et SQL Server</div>
+                        <div class="project__name">JamboSafari</div>
+                        <p class="project__desc">Développement de logiciel de bureau pour la gestion de l'entrepot</p>
+                        <a class="project__action" href="">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <nav class="embla__pagination">
+            <button class="is-active"></button>
+            <button></button>
+            <button class=""></button>
+            <button></button>
+        </nav>
+    </div>
+</section>
+<section class="section social">
+    <div class="section__top-title">Réseaux sociaux</div>
+    <div class="section__title" data-delay="1">Me retrouver</div>
+    <div class="social-links row" data-delay="2">
+        <a href="https://github.com/AnguandiaJered" class="col-md-3" target="_blank">
+            <strong>Github</strong>
+            <span>github.com/AnguandiaJered</span>
+            <!-- <img src="" alt="" srcset=""> -->
+            <span id="spa" class="fa fa-github"></span>
+        </a>
+        <a href="https://twitter.com/@JeredAnguandia" class="col-md-4" target="_blank">
+            <strong>Twetter</strong>
+            <span>twitter.com/@JeredAnguandia</span>
+            <!-- <img src="" alt="" srcset=""> -->
+            <span id="spa" class="fa fa-twitter"></span>
+        </a>
+        <a href="https://www.linkedin.com/in/jered-anguandia" class="col-md-4" target="_blank">
+            <strong>Linkedin</strong>
+            <span>linkedin.com/in/jered-anguandia</span>
+            <!-- <img src="" alt="" srcset=""> -->
+            <span id="spa" class="fa fa-linkedin"></span>
+        </a>
+    </div>
+</section>  
+<footer class="footer">         
+    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Design-Integration and Developpement <i class="fa fa-heart text-danger" aria-hidden="true"></i> by <a href="mailto:anguandiatsandijered03@gmail.com">Jered</a>
+</footer> 
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> -->
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+
+</html>

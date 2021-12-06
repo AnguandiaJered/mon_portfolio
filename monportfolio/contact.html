@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+    <!-- <script src="fontawesome/css/all.min.css"></script> -->
+    
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Anguandia Jeremie | Contact</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm fixed-top container header">
+        <a class="navbar-brand header__logo" href="index.html">ATJ</a>    
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#menu"><span class="fa fa-list text-white"></span></button>
+		<div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav offset-10">
+                <li class="nav-item"><a class="nav-link" href="projet.html">Réalisations</a></li>
+                <li class="nav-item"><a class="nav-link header__action" href="contact.html">ME CONTACTER</a></li>               
+            </ul>
+        </div>
+    </nav>
+    <div class="contact-page">
+        <div class="page-header" style="background-image: rgba(0,0,0,0.5);">
+                     <!-- <img src="images/img5.jpg" style="background-image: rgba(0,0,0,0.5);" alt="">   -->
+        </div>
+        <section class="section">             
+
+              
+            <div class="contact-card row">
+                <div class="section__top-title" data-delay="1" style="transition-delay: 0.1s;">Me contacter</div><br><br>
+                <p data-delay="2" style="transition-delay: 0.2s;">Merci de donner un maximum de détail sur le projet afin que je puisse évaluer correctement la charge de travail que représente votre projet. Cela permettra aussi d'avoir un premier chiffrage au plus prêt du devis final.</p>
+                <div class="col-lg-7 mb-5 mb-lg-0">
+                    <form action="#" class="contact-form" data-delay="3" id="contact-form" style="transition-delay: 0.3s;">
+                        <div class="form-group">
+                            <div class="col-md-12 mb-3 mb-md-0">
+                                <!-- <label class="text-black" for="fname">Noms</label> -->
+                                <input type="text" id="fname" class="form-control" placeholder="Nom & Prénom">
+                            </div>                            
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                <!-- <label class="text-black" for="email">Email</label> -->
+                                <input type="email" id="email" class="form-control" placeholder="Email">
+                            </div>
+                        </div> 
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                <!-- <label class="text-black" for="email">Email</label> -->
+                                <input type="text" id="sujet" class="form-control" placeholder="subject">
+                            </div>
+                        </div>                       
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                <label class="text-black" for="message">Message</label>
+                                <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="Ecriver votre notes ou questions ici..."></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                <input type="submit" value="Send Message" class="btn btn-primary btn-md text-white">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-5">
+                    <div class="p-4 mb-3">
+                        <p class="mb-0 font-weight-bold">Address</p>
+                        <p class="mb-4">403 Industrielle, Mabanga sud, Karisimbi, Goma, RDC</p>
+                        <p class="mb-0 font-weight-bold">Phone</p>
+                        <p class="mb-4"><a href="#">+243 825 053 403,<br> +234 978 451 020</a></p>
+                        <p class="mb-0 font-weight-bold">Email Address</p>
+                        <p class="mb-0"><a href="mailto:anguandiatsandijered03@gmail.com">anguandiatsandijered03@gmail.com</a></p>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="card-title">Goma</h5>
+                        </div>
+                        <div class="card-body">
+                            <div id="localise">            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="section social">
+        <div class="section__top-title">Réseaux sociaux</div>
+        <div class="section__title" data-delay="1">Me retrouver</div>
+        <div class="social-links row" data-delay="2">
+            <a href="https://github.com/AnguandiaJered" class="col-md-3" target="_blank">
+                <strong>Github</strong>
+                <span>github.com/AnguandiaJered</span>
+                <!-- <img src="" alt="" srcset=""> -->
+                <span id="spa" class="fa fa-github"></span>
+            </a>
+            <a href="https://twitter.com/@JeredAnguandia" class="col-md-4" target="_blank">
+                <strong>Twetter</strong>
+                <span>twitter.com/@JeredAnguandia</span>
+                <!-- <img src="" alt="" srcset=""> -->
+                <span id="spa" class="fa fa-twitter"></span>
+            </a>
+            <a href="https://www.linkedin.com/in/jered-anguandia" class="col-md-4" target="_blank">
+                <strong>Linkedin</strong>
+                <span>linkedin.com/in/jered-anguandia</span>
+                <!-- <img src="" alt="" srcset=""> -->
+                <span id="spa" class="fa fa-linkedin"></span>
+            </a>
+        </div>
+    </section>
+    <footer class="footer">       
+        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Design-Integration and Developpement <i class="fa fa-heart text-danger" aria-hidden="true"></i> by <a href="mailto:anguandiatsandijered03@gmail.com">Jered</a>
+    </footer> 
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+
+
+<script src="js/script.js"></script>
+</html>
